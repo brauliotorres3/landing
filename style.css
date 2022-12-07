@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+  height: 10%;
+  background-color: #fae6e9;
+  padding: 0 7%;
+}
+
+.logo-contaner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  width: 1px;
+  background-color: black;
+  height: 40px;
+  margin: 0 10px 0 10px;
+}
+
+.button-stay {
+  background-color: #0568fd;
+  padding: 13px 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.main {
+  background-color: #fae6e9;
+  width: 100%;
+  padding: 0 7%;
+}
+
+.container {
+  padding: 0 7%;
+  width: 100%;
+  height: auto;
+}
+
+.section1 {
+  width: 100%;
+  background-color: #fae6e9;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.middle {
+  width: 50%;
+}
+
+.right-middle {
+  background-image: url("/images/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: 145% 30%;
+}
+
+.podcast > i {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 105%;
+  padding-top: 30px;
+}
+
+.left-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-middle > p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  max-width: 610px;
+  padding-top: 20px;
+}
+
+.img-container > {
+  width: 30%;
+}
+
+.podcast {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.section2 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  padding: 0 7%;
+}
+
+.section2 .left > p {
+  width: 100%;
+}
+
+.section2 > .left {
+  border: 1px solid black;
+  min-height: 20vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  border: 1px solid blue;
+  min-height: 20vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  width: 60%;
+  height: 20%;
+  border: 1px solid red;
+  display: flex;
+}
+
+.section2 .form >input {
+  width: 50%;
+  height: 30%;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section2 .form >button {
+  width: 50%;
+  height: 30%;
+  border: 1px solid black;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
